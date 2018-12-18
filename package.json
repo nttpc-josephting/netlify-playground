@@ -1,0 +1,44 @@
+{
+  "name": "netlify-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config ./build/webpack.config.dev.js",
+    "build": "webpack --config ./build/webpack.config.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nttpc-josephting/netlify-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nttpc-josephting/netlify-playground/issues"
+  },
+  "homepage": "https://github.com/nttpc-josephting/netlify-playground#readme",
+  "dependencies": {
+    "vue": "^2.5.21",
+    "vue-loader": "^15.4.2",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^2.0.1",
+    "eslint": "^5.10.0",
+    "eslint-loader": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "vue-template-compiler": "^2.5.21",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "browserslist": "> 0.25%, not dead"
+}
