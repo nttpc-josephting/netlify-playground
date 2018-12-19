@@ -4,6 +4,7 @@
     <div class="main">
       <p>This is to test some of the functions available on Netlify.</p>
       <p>Testing Netlify deploy previews.</p>
+      <p>Split test: Master B</p>
     </div>
     <p class="powered">Powered by Netlify</p>
   </div>
