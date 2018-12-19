@@ -1,7 +1,10 @@
 <template>
   <div id="app">
     <h1>Netlify Playground</h1>
-    <p class="main">This is to test some of the functions available on Netlify.</p>
+    <div class="main">
+      <p>This is to test some of the functions available on Netlify.</p>
+      <p>Testing Netlify deploy previews.</p>
+    </div>
     <p class="powered">Powered by Netlify</p>
   </div>
 </template>
