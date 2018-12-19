@@ -3,8 +3,6 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
-const PrerenderSPAPlugin = require('prerender-spa-plugin')
-const Renderer = PrerenderSPAPlugin.PuppeteerRenderer
 
 module.exports = {
   mode: 'development',
@@ -62,11 +60,6 @@ module.exports = {
     }),
     new CopyWebpackPlugin([{
       from: 'static'
-    }]),
-    new PrerenderSPAPlugin({
-      renderer: new Renderer({
-        renderAfterDocumentEvent: 'render-event'
-      })
-    })
+    }])
   ]
 }
