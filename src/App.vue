@@ -6,6 +6,7 @@
       <p>Testing Netlify deploy previews.</p>
       <p>Split test: Master</p>
       <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact" />
         <p>
           <label>Email: <input type="email" name="email" /></label>
         </p>
