@@ -21,7 +21,7 @@
   "dependencies": {
     "vue": "^2.5.21",
     "vue-loader": "^15.4.2",
-    "webpack": "^4.27.1",
+    "webpack": "^4.35.3",
     "webpack-cli": "^3.1.2"
   },
   "devDependencies": {
@@ -31,15 +31,15 @@
     "babel-loader": "^8.0.4",
     "copy-webpack-plugin": "^4.6.0",
     "css-loader": "^2.0.1",
-    "eslint": "^5.10.0",
+    "eslint": "^6.0.1",
     "eslint-loader": "^2.1.1",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.5.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "vue-template-compiler": "^2.5.21",
-    "webpack-dev-server": "^3.1.11"
+    "webpack-dev-server": "^3.7.2"
   },
   "browserslist": "> 0.25%, not dead"
 }
