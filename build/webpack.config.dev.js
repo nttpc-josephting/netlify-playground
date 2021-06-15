@@ -58,8 +58,10 @@ module.exports = {
       filename: '[name].css',
       chunkFilename: '[id].css'
     }),
-    new CopyWebpackPlugin([{
-      from: 'static'
-    }])
+    new CopyWebpackPlugin({
+      patterns: [{
+        from: 'static'
+      }]
+    })
   ]
 }
